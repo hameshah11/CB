@@ -2,11 +2,11 @@ import json
 import os
 import time
 from flask import Flask, request, jsonify
-import openai
 from openai import OpenAI
+import openai
+from packaging import version
 import functions
 
-from packaging import version
 
 required_version = version.parse("1.1.1")
 current_version = version.parse(openai.__version__)
