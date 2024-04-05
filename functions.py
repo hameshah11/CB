@@ -2,7 +2,7 @@ import json
 import requests
 import os
 from openai import OpenAI
-from prompts import assistant_instructions
+#from prompts import assistant_instructions
 
 OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 AIRTABLE_API_KEY = os.environ['AIRTABLE_API_KEY']
